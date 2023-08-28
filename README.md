@@ -7,14 +7,14 @@ This will guarentee a seamless run and you would not have to change/create a new
 This is the folder structure that I have used (since I use relative paths in the notebook)
 
 /d/full/path/to/eo_ml/
-    - notebook (folder)
-        - eoml_preds.zarr
-        - eoml_response_croptypes.gpkg
-        - eoml_task.ipynb
-    - Dockerfile
-    - requirements.txt
-    - full_env_requirements.txt
-    - README.md
+- notebook (folder)
+    - eoml_preds.zarr (THIS IS NOT IN THE GIT REPO)
+    - eoml_response_croptypes.gpkg
+    - eoml_task.ipynb
+- Dockerfile
+- requirements.txt
+- full_env_requirements.txt
+- README.md
 
 In your cmd and, with docker installed on your PC, (either docker desktop for windows of docker for linux) follow these steps:
  - navigate to the folder containing the `Dockerfile` and `requirements.txt` (in this example the path would be `/d/full/path/to/eo_ml/`)
